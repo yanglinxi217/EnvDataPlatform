@@ -1,0 +1,39 @@
+# Qt核心配置忽略
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.prl
+
+# Qt编译生成文件
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile*
+*.moc
+
+# 构建目录
+build/
+build-*/
+debug/
+release/
+bin/
+lib/
+
+# 编译中间文件
+*.o
+*.obj
+*.idx
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE/系统缓存
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.autosave
